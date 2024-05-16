@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: Account Registration
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.874 s <<< FAILURE! -- in Account Registration
+Account Registration.Successful Account Registration -- Time elapsed: 1.874 s <<< ERROR!
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:209)
+	at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1105)
+	at java.base/java.util.Map.of(Map.java:1353)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at hooks.Hooks.setup(Hooks.java:28)
+
